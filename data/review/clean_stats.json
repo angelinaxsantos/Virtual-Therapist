@@ -1,0 +1,53 @@
+{
+  "annomi": {
+    "input": 150,
+    "crisis_flagged": 6,
+    "assistant turns excluded from training (train=False)": 0,
+    "output": 150
+  },
+  "esconv": {
+    "input": 1304,
+    "crisis_flagged": 23,
+    "assistant turns excluded from training (train=False)": 1647,
+    "output": 1304,
+    "sentences: contact_removed": 19,
+    "sentences: crisis_placeholder": 4,
+    "sentences: truncated_at_empty_assistant": 4
+  },
+  "amod": {
+    "input": 1416,
+    "dropped: too_short_answer": 8,
+    "dropped: empty_assistant_turn": 2,
+    "dropped: duplicate": 1,
+    "crisis_flagged": 43,
+    "assistant turns excluded from training (train=False)": 0,
+    "output": 1405,
+    "sentences: contact_removed": 113,
+    "sentences: crisis_placeholder": 13,
+    "sentences: promo_removed": 81,
+    "sentences: truncated_at_empty_assistant": 2
+  },
+  "psych8k": {
+    "input": 8187,
+    "dropped: too_short_answer": 1,
+    "crisis_flagged": 31,
+    "assistant turns excluded from training (train=False)": 0,
+    "output": 8186
+  },
+  "empathetic": {
+    "input": 24847,
+    "dropped: not_english": 1,
+    "crisis_flagged": 19,
+    "assistant turns excluded from training (train=False)": 0,
+    "conversations with self-disclosure": 3665,
+    "output": 24846,
+    "sentences: contact_removed": 3,
+    "sentences: crisis_placeholder": 3
+  },
+  "hope_eval": {
+    "input": 11,
+    "crisis_flagged": 0,
+    "assistant turns excluded from training (train=False)": 0,
+    "output": 11
+  }
+}
