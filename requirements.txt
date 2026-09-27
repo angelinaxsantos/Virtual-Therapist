@@ -1,0 +1,11 @@
+# Data pipeline (download, conversion, cleaning, mixing)
+pandas
+datasets
+langdetect
+
+# Crisis lines extraction (extract_crisis_lines.py --live)
+requests
+beautifulsoup4
+
+# Response language enforcement (functions/ensure_language.py)
+deep-translator
