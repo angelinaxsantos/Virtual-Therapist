@@ -1,0 +1,2177 @@
+{
+  "_meta": {
+    "description": "All lines/numbers per country, automatically extracted from Wikipedia. Each country has a LIST of entries (not just one) - it's up to whoever integrates this to pick which one to use, or show more than one.",
+    "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines",
+    "extraction_date": "2026-09-17",
+    "warning": "Automatic extraction, not manually verified entry by entry. Confirm critical numbers before production use.",
+    "manual_fixes_applied": 4,
+    "manual_fixes_note": "Some entries (numbers with phone-keypad letters, or text ambiguous between schedules and numbers) were manually corrected after human review. See 'manual_fix_note' on each affected entry.",
+    "audience_tagging_note": "'audience' field added by keyword detection on the original text. 'general' means no specific-audience keyword was found (it does not necessarily mean the line excludes other audiences)."
+  },
+  "countries": {
+    "Algeria": [
+      {
+        "text": "Suicide Hotline Algeria: 0021 3983 2001 58",
+        "numbers_found": [
+          "0021 3983 2001 58"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Argentina": [
+      {
+        "text": "Centro de Asistencia al Suicida by calling 135 (Greater Buenos Aires) or 5275–1135 (rest of the country).",
+        "numbers_found": [
+          "135",
+          "5275–1135"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "SOS Un Amigo Anonimo is available from Monday to Friday from 10 am to 7 pm and Saturdays from 10 am to 4 pm by calling 5263–0583.",
+        "numbers_found": [
+          "5263–0583"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "TouchPeace is a free emotional support mobile application offering real-time assistance through video calls. The service operates 24 hours a day, 7 days a week, connecting users directly with trained volunteer counselors. It is fully confidential and requires no prior scheduling. TouchPeace is available for download on Android and iOS platforms.",
+        "numbers_found": [],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Armenia": [
+      {
+        "text": "Trust Social Work and Sociological Research Centre: can be reached at (2) 538194 or (2) 538197",
+        "numbers_found": [
+          "(2) 538194",
+          "(2) 538197"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Australia": [
+      {
+        "text": "Lifeline is a 24-hour nationwide service that provides access to crisis support, suicide prevention, and mental health support services. It can be reached at 13 11 14. They also offer an online chat service.",
+        "numbers_found": [
+          "13 11 14"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "Kids Helpline is a 24-hour nationwide service that provides access to crisis support, suicide prevention, and counselling services for Australians aged 5–25. It can be reached at 1800 55 1800. In addition, the Kids Helpline also provides online chat services.",
+        "numbers_found": [
+          "1800 55 1800"
+        ],
+        "audience": [
+          "children_youth"
+        ]
+      },
+      {
+        "text": "Beyond Blue provides nationwide information and support regarding anxiety, depression, and suicide. It has a helpline which can be reached by calling 1300 224 636. The helpline is available 24 hours a day, 7 days a week. In addition, the organisation also provides online chat.",
+        "numbers_found": [
+          "1300 224 636"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "Suicide Call Back Service is a nationwide service that provides professional 24/7 telephone and online counselling to people who are affected by suicide. It has a helpline which can be reached by calling 1300 659 467. The organisation also offers online chat and video chat services.",
+        "numbers_found": [
+          "1300 659 467"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "MensLine Australia is a 24/7 telephone and online counselling service for men with emotional health, mental health, and relationship concerns. It has a helpline which can be reached by calling 1300 78 99 78. The organisation also offers online counselling.",
+        "numbers_found": [
+          "1300 78 99 78"
+        ],
+        "audience": [
+          "men"
+        ]
+      }
+    ],
+    "Austria": [
+      {
+        "text": "142 is the number of Telefonseelsorge (Samaritan Telephone) in Austria. Free of charge, operating 24 hours a day.",
+        "numbers_found": [
+          "142"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "147 is the number of Rat auf Draht, a crisis number especially for children, juveniles, and their attachment figures. Free of charge, operating 24 hours a day.",
+        "numbers_found": [
+          "147"
+        ],
+        "audience": [
+          "children_youth"
+        ]
+      }
+    ],
+    "Azerbaijan": [
+      {
+        "text": "510–66–36 is the official youth crisis hotline operated by Initiative for Development.",
+        "numbers_found": [
+          "510–66–36"
+        ],
+        "audience": [
+          "children_youth"
+        ]
+      }
+    ],
+    "The Bahamas": [
+      {
+        "text": "National Suicide Hotline: 322–2763",
+        "numbers_found": [
+          "322–2763"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Bahrain": [],
+    "Bangladesh": [
+      {
+        "text": "Vent by Mindspace (+8809-678-678-778) is a Psychological Crisis Hotline Service, launched on 25th October 2021, has been providing psychological first-aid to more than three hundred people in only three months of its operation.",
+        "numbers_found": [
+          "(+8809-678-678-778",
+          "2021"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "Kaan Pete Roi (+88 09612 119911) is an emotional support helpline in Bangladesh whose mission is to alleviate feelings of despair, isolation, distress, and suicidal feelings among members of the community, through confidential listening. The helpline is intended for suicide prevention and the promotion of mental health.",
+        "numbers_found": [
+          "(+88 09612 119911"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Barbados": [
+      {
+        "text": "Samaritans of Barbados: +1.246.429.9999",
+        "numbers_found": [
+          "+1.246.429.9999"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "Ministry of Health: Lifeline Barbados – National mental health and suicidal issues hotline. +1.246.536.4500 Formerly the SARS CoVID2019 (Covid) Hotline",
+        "numbers_found": [
+          "+1.246.536.4500",
+          "2019"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Belarus": [
+      {
+        "text": "For victims of violence at home: 8 801 100 8 801 (anonymous, 24/7).",
+        "numbers_found": [
+          "8 801 100",
+          "801"
+        ],
+        "audience": [
+          "victims_abuse"
+        ]
+      },
+      {
+        "text": "For children: 801–100–1611 (anonymous, 24/7).",
+        "numbers_found": [
+          "801–100–1611"
+        ],
+        "audience": [
+          "children_youth"
+        ]
+      },
+      {
+        "text": "Other psychological help phones can be reached at (minzdrav.gov.by)",
+        "numbers_found": [],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Belgium": [
+      {
+        "text": "Stichting Zelfmoordlijn 1813 provides a 24/7 national suicide prevention phone line and a webchat every day from 18:30 to 22:00 for the Dutch language. Zelfmoordlijn 1813 hotline can be reached at 1813.",
+        "numbers_found": [
+          "1813"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "Stichting Centre de Prévention du Suicide provides a 24/7 national suicide prevention phone line for French language. The Center for the Prevention of Suicide hotline can be reached at 080032123.",
+        "numbers_found": [
+          "080032123"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Bosnia and Herzegovina": [
+      {
+        "text": "Plavi Telefon is a free-of-charge Bosnian emotional support and advisory helpline in Bosnia and Herzegovina based in Banja Luka, which provides confidential listening and assistance for children and the youth, working from 9:00 to 17:00 on work days. 080 05 03 05 is the number of Plavi Telefon.",
+        "numbers_found": [
+          "080 05 03 05"
+        ],
+        "audience": [
+          "children_youth"
+        ]
+      },
+      {
+        "text": "Centar Srce is a Serbian organisation for emotional support, dealing with suicidal thought and prevention. 0800-300303 is the number of Centar Srce.",
+        "numbers_found": [
+          "0800-300303"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Bolivia": [
+      {
+        "text": "Teléfono de la Esperanza aims at promoting mental health to the Spanish and Portuguese-speaking world. Bolivians living in Cochabamba and La Paz can call (00 591 4) 4 25 42 42 and 75288084.",
+        "numbers_found": [
+          "(00 591",
+          "4 25 42 42",
+          "75288084"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Botswana": [
+      {
+        "text": "3911270 is the national lifeline.",
+        "numbers_found": [
+          "3911270"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Brazil": [
+      {
+        "text": "188 is a national suicide hotline in Brazil.",
+        "numbers_found": [
+          "188"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "Centro de Valorização da Vida is an emotional and suicidal prevention support NGO founded in 1962 in São Paulo, Brazil. It offers voluntary and free support, with all communications being confidential. Contacts can be made through the phone number 188 (available 24/7)",
+        "numbers_found": [
+          "1962",
+          "188"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Brunei": [
+      {
+        "text": "145 is the national suicide hotline",
+        "numbers_found": [
+          "145"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Bulgaria": [
+      {
+        "text": "Bulgarian Red Cross provides free consultations related to psycho-social issues.",
+        "numbers_found": [],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Burundi": [
+      {
+        "text": "Human Health Aid-Burundi can be reached at +25769776367.",
+        "numbers_found": [
+          "+25769776367"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Canada": [
+      {
+        "text": "988 is the suicide crisis helpline. It can be reached 24/7 by call or text in both English and French.",
+        "numbers_found": [
+          "988"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "Kids Help Phone (https://kidshelpphone.ca/) is a free 24/7 national support service.",
+        "numbers_found": [],
+        "audience": [
+          "children_youth"
+        ]
+      },
+      {
+        "text": "Talk Suicide Canada can be reached 24/7 at 1–833–456–4566 or 45645 (Text, 4 p.m. to midnight ET only) (https://talksuicide.ca/) nationwide suicide prevention service.",
+        "numbers_found": [
+          "1–833–456–4566",
+          "45645"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "Crisis Text Line powered by Kids Help Phone (crisistextline.ca) can be reached by texting HOME (English) or PARLER (French) to 686868.",
+        "numbers_found": [
+          "686868"
+        ],
+        "audience": [
+          "children_youth"
+        ]
+      },
+      {
+        "text": "Trans Lifeline is a toll-free crisis hotline. It can be reached at 1–877–330–6366.",
+        "numbers_found": [
+          "1–877–330–6366"
+        ],
+        "audience": [
+          "lgbt"
+        ]
+      }
+    ],
+    "Cayman Islands": [
+      {
+        "text": "CayMind - Mental Health Helpline is available Monday - Friday|6:00 pm - 11:00 pm: 1-800-534-6463 (MIND).",
+        "numbers_found": [
+          "1-800-534-6463"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Chile": [
+      {
+        "text": "National suicide hotline: *4141",
+        "numbers_found": [
+          "4141"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "Salud Responde (Ministerio de Salud): Teléfono 600 360 7777",
+        "numbers_found": [
+          "600 360 7777"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "Línea Libre (Fundación Para la Confianza): Teléfono: 1515.",
+        "numbers_found": [
+          "1515"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "China": [
+      {
+        "text": "National mental health support hotline: 12356.",
+        "numbers_found": [
+          "12356"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "Beijing Suicide Research and Prevention Center available 24/7 at 800–810–1117 (for landline callers) or 010–8295–1332 (for mobile and VoIP callers)",
+        "numbers_found": [
+          "800–810–1117",
+          "010–8295–1332"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "Lifeline China available 10 am to 10 pm every day at 400 821 1215.",
+        "numbers_found": [
+          "400 821 1215"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Colombia": [
+      {
+        "text": "106 provides support for issues such as depression, alcoholism, drug abuse, and suicide.",
+        "numbers_found": [
+          "106"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Costa Rica": [
+      {
+        "text": "The Aquí Estoy line is a free service for support in suicide prevention. They can be reached at (506) 2272–3774.",
+        "numbers_found": [
+          "(506) 2272–3774"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Croatia": [
+      {
+        "text": "Plavi Telefon can be called at (01) 4833-888.",
+        "numbers_found": [
+          "(01) 4833-888"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Cuba": [],
+    "Cyprus": [
+      {
+        "text": "Cyprus Samaritans is available every day from 4 pm to 12 am. They can be reached at 8000 7773.",
+        "numbers_found": [
+          "8000 7773"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Czech Republic": [
+      {
+        "text": "116 111 for kids under 18 and students under 26 years old.",
+        "numbers_found": [
+          "116 111"
+        ],
+        "audience": [
+          "children_youth",
+          "students"
+        ]
+      },
+      {
+        "text": "116 123 for adults (Free, 24/7)",
+        "numbers_found": [
+          "116 123"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "Blueline 9am–9pm: Call 608 902 410 or 731 197 477",
+        "numbers_found": [
+          "608 902 410",
+          "731 197 477"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Denmark": [
+      {
+        "text": "Livslinien offers telephone support 11 am–4 am on 70 201 201, or online chat",
+        "numbers_found": [
+          "70 201 201"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Ecuador": [
+      {
+        "text": "Teléfono Amigo is available every day from 09h to 13h and from 15h to 23h.",
+        "numbers_found": [],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Egypt": [
+      {
+        "text": "BeFrienders in Cairo, Egypt: 762 1602, 762 1603, and 762 2381.",
+        "numbers_found": [
+          "762 1602",
+          "762 1603",
+          "762 2381"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Estonia": [
+      {
+        "text": "Eluliin (Free, every day from 19:00 to 07:00 in Estonian and Russian): 655 8088 in Estonian and 655 5688 in Russian.",
+        "numbers_found": [
+          "655 8088",
+          "655 5688"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "SA Kadunud and Aitan Eestit MTÜ joint suicide and missing persons helpline (Free, 24/7): 661 6776.",
+        "numbers_found": [
+          "661 6776"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "Hingehoiutelefon (Free, every day from 16:00 to 00:00): 116 123.",
+        "numbers_found": [
+          "116 123"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "Lasteabi - National children's helpline (Free, 24/7): 116 111.",
+        "numbers_found": [
+          "116 111"
+        ],
+        "audience": [
+          "children_youth"
+        ]
+      },
+      {
+        "text": "Palunabi - Victim support crisis helpline (Free, 24/7): 116 006.",
+        "numbers_found": [
+          "116 006"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Fiji": [
+      {
+        "text": "Lifeline Fiji runs the National Crisis Line. Free calls at any time on 132454",
+        "numbers_found": [
+          "132454"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Finland": [
+      {
+        "text": "MIELI Mental Health Finland can be reached at 09 2525 0111 (Finnish, 24/7), 09 2525 0112 (Swedish) or 09 2525 0113 (Arabic and English).",
+        "numbers_found": [
+          "09 2525 0111",
+          "09 2525 0112",
+          "09 2525 0113"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "France": [
+      {
+        "text": "3114: the national suicide prevention hotline. A toll-free 24/7 lifeline.",
+        "numbers_found": [
+          "3114"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "Fil santé jeunes: 0800 235 236: anonymous and toll-free number for young people.",
+        "numbers_found": [
+          "0800 235 236"
+        ],
+        "audience": [
+          "children_youth"
+        ]
+      },
+      {
+        "text": "Suicide écoute: 01 45 39 40 00 (24-hour): suicide prevention helpline (volunteers).",
+        "numbers_found": [
+          "01 45 39 40 00"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "SOS Suicide Phénix: 01 40 44 46 45 (schedule): suicide prevention through listening and hospitality (volunteers).",
+        "numbers_found": [
+          "01 40 44 46 45"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "Sos amitié: 09 72 39 40 50 (toll-free 24/7 number): distress listening on multimedia platform.",
+        "numbers_found": [
+          "09 72 39 40 50"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "La Croix Rouge Ecoute: 0 800 858 858: psychological support online, anonymous and free (volunteers).",
+        "numbers_found": [
+          "0 800 858 858"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Germany": [
+      {
+        "text": "Telefonseelsorge (24/7, no cost): 0800 111 0 111, or 0800 111 0 222, or 116 123.",
+        "numbers_found": [
+          "0800 111",
+          "111",
+          "222",
+          "116 123"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "International Helpline Berlin: Tel: 030-44 01 06 07",
+        "numbers_found": [
+          "030-44 01 06 07"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "Telefon Doweria (helpline for Russian-speaking people): Tel: 030 440 308 454",
+        "numbers_found": [
+          "030 440 308 454"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "Nummer gegen Kummer (Elterntelefon): Monday to Friday from 9 a.m. to 5 p.m., Tuesday and Thursday until 7 p.m. Tel: 0800 111 0 550",
+        "numbers_found": [
+          "0800 111",
+          "550"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Georgia": [],
+    "Ghana": [
+      {
+        "text": "2332 444 71279 is the national lifeline in Ghana.",
+        "numbers_found": [
+          "2332 444 71279"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Gibraltar": [
+      {
+        "text": "gibsams.gi: 116123 (6 pm–11 pm every day): Confidential and anonymous hotline (Volunteers).",
+        "numbers_found": [
+          "116123"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "childline.gi: 8008 (5 pm–9 pm every day): Confidential and anonymous hotline for minors (Volunteers).",
+        "numbers_found": [
+          "8008"
+        ],
+        "audience": [
+          "children_youth"
+        ]
+      }
+    ],
+    "Greece": [
+      {
+        "text": "1018 is the suicide hotline.",
+        "numbers_found": [
+          "1018"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "1065 is the SOS Lifeline for the elderly.",
+        "numbers_found": [
+          "1065"
+        ],
+        "audience": [
+          "elderly"
+        ]
+      },
+      {
+        "text": "11188 is the Cyber Crime Division.",
+        "numbers_found": [
+          "11188"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "1056 is the National Helpline for Children.",
+        "numbers_found": [
+          "1056"
+        ],
+        "audience": [
+          "children_youth"
+        ]
+      },
+      {
+        "text": "15900 is the General Secretariat for Family Policy and Gender Equality.",
+        "numbers_found": [
+          "15900"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "11528 is the open support line for the LGBT community.",
+        "numbers_found": [
+          "11528"
+        ],
+        "audience": [
+          "lgbt"
+        ]
+      }
+    ],
+    "Greenland": [
+      {
+        "text": "134 is the national crisis number for Greenland.",
+        "numbers_found": [
+          "134"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "Tusaannga is an anonymous helpline for children and young adults in Greenland. They can be reached by calling 80 11 80, texting 18 99.",
+        "numbers_found": [
+          "80 11 80",
+          "18 99"
+        ],
+        "audience": [
+          "children_youth"
+        ]
+      }
+    ],
+    "Guernsey": [
+      {
+        "text": "Samaritans offers 24/7, free and confidential support. Call 116 123.",
+        "numbers_found": [
+          "116 123"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "Childline - Guernsey. Call for free at 0800 1111.",
+        "numbers_found": [
+          "0800 1111"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Guyana": [
+      {
+        "text": "The Guyana Inter-agency Suicide Prevention Helpline can be reached 24 hours a day by calling (+592) 223–0001, or 223–0009, and calling and/or texting (+592) 600–7896, or 623–4444.",
+        "numbers_found": [
+          "(+592) 223–0001",
+          "223–0009",
+          "(+592) 600–7896",
+          "623–4444"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Hong Kong": [
+      {
+        "text": "The Samaritans Hong Kong is available 24/7 at 2896 0000.",
+        "numbers_found": [
+          "2896 0000"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "The Samaritan Befrienders Hong Kong is available 24/7 at 2389 2222.",
+        "numbers_found": [
+          "2389 2222"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "Caritas Crisis line is available 24/7 at 18288.",
+        "numbers_found": [
+          "18288"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "Suicide Prevention Services is available 24/7 at 2382 0000.",
+        "numbers_found": [
+          "2382 0000"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Hungary": [
+      {
+        "text": "LESZ: Call 116–123 or 06 80 810–600 24/7.",
+        "numbers_found": [
+          "116–123",
+          "06 80 810–600"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "Blue Line: Call 116–111 24/7.",
+        "numbers_found": [
+          "116–111"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Iceland": [
+      {
+        "text": "Hjálparsími Rauða Krossins (Red Cross assistance phone) can be reached by calling 1717.",
+        "numbers_found": [
+          "1717"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "The Pieta Organization can be reached by calling 552 2218",
+        "numbers_found": [
+          "552 2218"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "India": [
+      {
+        "text": "Kiran: A national 24/7 toll free helpline.",
+        "numbers_found": [],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "Samaritans Mumbai: +91 8422984530 – 3 pm to 9 pm, all days.",
+        "numbers_found": [
+          "+91 8422984530"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "Vandrevala Foundation: +91 9999666555, a 24/7 helpline.",
+        "numbers_found": [
+          "+91 9999666555"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "AASRA: +91–22–27546669, 24 hours a day.",
+        "numbers_found": [
+          "+91–22–2754666"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "1Life: +91 78930 78930, a 24/7 helpline.",
+        "numbers_found": [
+          "+91 78930 78930"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "Sneha India is available 24/7 on the phone by calling +91 44 2464 0060.",
+        "numbers_found": [
+          "+91 44 2464 0060"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Indonesia": [
+      {
+        "text": "Ministry of Health Hotline: 1500–567",
+        "numbers_found": [
+          "1500–567"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Iran": [
+      {
+        "text": "The Iran National Organization of Well-Being: Calling 123. This hotline is open 24/7.",
+        "numbers_found": [
+          "123"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Ireland": [
+      {
+        "text": "Samaritans is aimed at providing emotional support to anyone in distress. Freephone 116 123.",
+        "numbers_found": [
+          "116 123"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "50808 is a free, confidential 24/7 national crisis-intervention text-message service. Text HELLO to 50808.",
+        "numbers_found": [
+          "50808"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Israel": [
+      {
+        "text": "Eran.org.il Suicide line operates 24/7 and can be reached by calling 1201 or 972–9 8891333 from abroad.",
+        "numbers_found": [
+          "1201",
+          "972",
+          "9 8891333"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Italy": [
+      {
+        "text": "Servizio per la Prevenzione del Suicidio (SPS) is operating from 9.30 am till 4.30 pm, from Monday to Friday.",
+        "numbers_found": [],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "Samaritans – ONLUS is available every day from 1pm to 10pm by calling 800 86 00 22 or 06 77208977.",
+        "numbers_found": [
+          "800 86 00 22",
+          "06 77208977"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "Telefono Amico provides services everyday from 10am to 12am by calling 199284284.",
+        "numbers_found": [
+          "199284284"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "Telefono Amico Cevita is available 24/7 by calling 0299777.",
+        "numbers_found": [
+          "0299777"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Japan": [
+      {
+        "text": "TELL provides a free, confidential English-language Lifeline service.",
+        "numbers_found": [],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "Befrienders Worldwide Osaka Suicide Prevent Center",
+        "numbers_found": [],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Jordan": [
+      {
+        "text": "110 for Families & Children",
+        "numbers_found": [
+          "110"
+        ],
+        "audience": [
+          "children_youth"
+        ]
+      }
+    ],
+    "Kazakhstan": [
+      {
+        "text": "National Helpline for Children and Youth — 150, +7 708 10 608 10",
+        "numbers_found": [
+          "150",
+          "+7 708 10 608 10"
+        ],
+        "audience": [
+          "children_youth"
+        ]
+      },
+      {
+        "text": "COVID-19 Mental Help — +7 (727) 272-76-90",
+        "numbers_found": [
+          "+7 (727) 272-76-90"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "Public Association Janym — 8 (800) 004-05-40",
+        "numbers_found": [
+          "8 (800) 004-05-40"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Korea": [
+      {
+        "text": "Counsel24: Call 1566–2525",
+        "numbers_found": [
+          "1566–2525"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "Lifeline Korea: Call 1588–9191",
+        "numbers_found": [
+          "1588–9191"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "Mental Health Center Crisis Counseling 24hrs: Call 1577–0199",
+        "numbers_found": [
+          "1577–0199"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "Suicide Prevention Line: Call 109",
+        "numbers_found": [
+          "109"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Kenya": [
+      {
+        "text": "Befrienders Kenya: Call +254 722 178 177",
+        "numbers_found": [
+          "+254 722 178 177"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "Mental Health Department – Kenyatta Hospital: Call +254 20 3000378",
+        "numbers_found": [
+          "+254 20 3000378"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Kosovo": [
+      {
+        "text": "080012345 is the number of the suicide prevention hotline in Kosovo.",
+        "numbers_found": [
+          "080012345"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Latvia": [
+      {
+        "text": "Skalbes.lv is available at +371 67222922 or +371 27722292, 24 hours a day.",
+        "numbers_found": [
+          "+371 67222922",
+          "+371 27722292"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Lebanon": [
+      {
+        "text": "Embrace Emotional Support and Suicide Prevention LifeLine: 1564 from any mobile phone or landline inside Lebanon or +961–1–341941 from anywhere.",
+        "numbers_found": [
+          "1564",
+          "961",
+          "1–341941"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "Available 24/7, including public holidays.",
+        "numbers_found": [],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Liberia": [
+      {
+        "text": "Lifeline Liberia: 6534308",
+        "numbers_found": [
+          "6534308"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Lithuania": [
+      {
+        "text": "Vilties Linija (Hope Line): Phone 116 123, 24/7.",
+        "numbers_found": [
+          "116 123"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "Pagalbos Moterims Linija (Women's Helpline): Phone 8 800 66366, 24/7.",
+        "numbers_found": [
+          "8 800 66366"
+        ],
+        "audience": [
+          "women"
+        ]
+      },
+      {
+        "text": "Vaikų linija (Child Line): Phone 116 111 11:00 AM to 11:00 PM.",
+        "numbers_found": [
+          "116 111"
+        ],
+        "audience": [
+          "children_youth"
+        ]
+      },
+      {
+        "text": "Jaunimo linija (Youth Line): Phone 8 800 28888 (24/7).",
+        "numbers_found": [
+          "8 800 28888"
+        ],
+        "audience": [
+          "children_youth"
+        ]
+      }
+    ],
+    "Luxembourg": [
+      {
+        "text": "454545.lu +352 45 45 45 the lines are working 11h–23h on all weekdays and 11h–3h on Friday and Saturday.",
+        "numbers_found": [
+          "454545",
+          "+352 45 45 45"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Malaysia": [
+      {
+        "text": "15999 is the Official Kasih Helpline, offering 24/7 crisis hotline.",
+        "numbers_found": [
+          "15999"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "Befrienders offers a 24/7, confidential hotline. Can be reached at 03–79568144 or 03–79568145.",
+        "numbers_found": [
+          "03–79568144",
+          "03–79568145"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "MIASA 1–800–820066 offers a 24/7, crisis hotline.",
+        "numbers_found": [
+          "1–800–820066"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Malta": [
+      {
+        "text": "Appoġġ support line 179",
+        "numbers_found": [
+          "179"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Mauritius": [
+      {
+        "text": "Befrienders Mauritius offer a limited-hour crisis helpline. Can be reached at +230 800 93 93 (available from 09:00 to 21:00 daily).",
+        "numbers_found": [
+          "+230 800 93 93"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Mexico": [
+      {
+        "text": "SAPTEL can be reached at (55) 5259–8121. Available 24 hours a day, 365 days a year.",
+        "numbers_found": [
+          "(55) 5259–8121"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "Línea de la Vida (nacional): 800 822 37 37",
+        "numbers_found": [
+          "800 822 37 37"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Morocco": [
+      {
+        "text": "Sourire de Reda (Befrienders Casablanca): +212 (5) 22 87 47 40 Landline, (from 09:00 to 17:00, Monday to Friday) +212 (6) 62 58 95 70 Mobile.",
+        "numbers_found": [
+          "212",
+          "(5) 22 87 47 40",
+          "(6) 62 58 95 70"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Nepal": [
+      {
+        "text": "Suicide Prevention Helpline Center: 1166 (Tollfree)",
+        "numbers_found": [
+          "1166"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Netherlands": [
+      {
+        "text": "Stichting 113 Zelfmoordpreventie provides a 24/7 national suicide prevention phone line. Can be reached at 113 (regular fees) or 0800 0113 (free).",
+        "numbers_found": [
+          "113",
+          "0800 0113"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "New Zealand": [
+      {
+        "text": "1737, need to talk? Free call or text 1737 any time.",
+        "numbers_found": [
+          "1737"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "Lifeline Aotearoa Call 0800 543 354 to access their 24/7 hotline.",
+        "numbers_found": [
+          "0800 543 354"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "Samaritans Aotearoa New Zealand Call 0800 72 66 66 to access the 24/7 hotline.",
+        "numbers_found": [
+          "0800 72 66 66"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "Youthline Call 0800 376 633 or text 234.",
+        "numbers_found": [
+          "0800 376 633",
+          "234"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Norway": [
+      {
+        "text": "Mental Helse. Can be reached at 116 123 and is open 24 hours a day.",
+        "numbers_found": [
+          "116 123"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "Kirkens SOS. Can be reached at 22 40 00 40 and is open 24 hours a day.",
+        "numbers_found": [
+          "22 40 00 40"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Pakistan": [
+      {
+        "text": "Umang Hotline Pakistan is run by clinical psychologists. Their helpline can be reached at (92) 0311 7786264 / 0311 (77UMANG)",
+        "numbers_found": [
+          "(92) 0311 7786264",
+          "0311"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Philippines": [
+      {
+        "text": "The National Center for Mental Health Crisis Hotline can be reached by calling 1553. Also at 0917 899 USAP (8727), 0966 351 4518 or 0908 639 2672.",
+        "numbers_found": [
+          "1553",
+          "0917 899 8727",
+          "0966 351 4518",
+          "0908 639 2672"
+        ],
+        "manual_fix_note": "'USAP' is a phone-keypad mnemonic for '8727' (Wikipedia itself already gave that in parentheses); the full number is 0917 899 8727.",
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "The Natasha Goulbourn Foundation provides 24/7 assistance to those who call (02) 8804–HOPE (4673).",
+        "numbers_found": [
+          "(02) 8804-4673"
+        ],
+        "manual_fix_note": "'HOPE' is a phone-keypad mnemonic for '4673' (confirmed by Wikipedia's own parenthetical); full number (02) 8804-4673.",
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "Manila Lifeline Centre: (02) 8896–9191",
+        "numbers_found": [
+          "(02) 8896–9191"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Poland": [
+      {
+        "text": "Foundation 'Dajemy Dzieciom Siłę' can be reached toll-free 24/7 by dialing 116 111.",
+        "numbers_found": [
+          "116 111"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "The Polish Psychological Association hotline is available 14:00 – 22:00 at 116 123.",
+        "numbers_found": [
+          "116 123"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "A mental crisis hotline is maintained by the ITAKA Foundation, available 24/7 at 800 70 2222 (toll-free).",
+        "numbers_found": [
+          "800 70 2222"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Portugal": [
+      {
+        "text": "Voz de Apoio is anonymous and confidential. You can speak to them by calling 225 50 60 70 or through Skype, face-to-face, or writing.",
+        "numbers_found": [
+          "225 50 60 70"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "Sos Voz Amiga is available daily from 4pm to 12am by calling 213 544 545, 912 802 669, or 963 524 660. Free Green Line callers can call 800 209 899 from 9pm to 12am.",
+        "numbers_found": [
+          "213 544 545",
+          "912 802 669",
+          "963 524 660",
+          "800 209 899"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "Sos Estudante provides anonymous, confidential support every day from 8pm to 1am by calling 915 246 060, 969 554 545, 239 484 020 as well as through Skype.",
+        "numbers_found": [
+          "915 246 060",
+          "969 554 545",
+          "239 484 020"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "TouchPeace is a free emotional support mobile application offering real-time assistance through video calls.",
+        "numbers_found": [],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Peru": [
+      {
+        "text": "113 is national line of health services in Peru.",
+        "numbers_found": [
+          "113"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "Teléfono de la Esperanza: (01) 273-8026, is available from Monday to Saturday from 3pm to 9:30pm.",
+        "numbers_found": [
+          "(01) 273-8026"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "Centro Peruano de Suicidología y Prevención del Suicidio (Sentido): (01) 498-2711.",
+        "numbers_found": [
+          "(01) 498-2711"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Quebec": [
+      {
+        "text": "1-866-277-3553 or 1-866-APPELLE is a toll-free, French-speaking helpline (also available in English).",
+        "numbers_found": [
+          "1-866-277-3553"
+        ],
+        "manual_fix_note": "'1-866-APPELLE' and '1-866-277-3553' are the SAME number - 'APPELLE' decodes to '2773553' on a phone keypad, identical to the number already given in digits. They are not two different numbers, so this is kept as a single entry rather than two.",
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "Users can use SMS service by texting 53 53 53.",
+        "numbers_found": [
+          "53 53 53"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Romania": [
+      {
+        "text": "Alianța Română de Prevenție a Suicidului can be reached at 0800 801 200 and are available between 19:00 and 07:00.",
+        "numbers_found": [
+          "0800 801 200"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "Asociația de Suicidologie helpline, Prevenire Suicid, can be reached at 0800 080 100 or 116 123 and is available 24/7.",
+        "numbers_found": [
+          "0800 080 100",
+          "116 123"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "TelVerde antidepresie: 0800 0800 20, available 24/7.",
+        "numbers_found": [
+          "0800 0800 20"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "Helpline anti-anxietate: 0374 456 420, available 24/7.",
+        "numbers_found": [
+          "0374 456 420"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Russia": [
+      {
+        "text": "Suicide helpline: Call (495) 625 3101",
+        "numbers_found": [
+          "(495) 625 3101"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "EMERCOM Psychological Service: +7 (495) 989–50–50",
+        "numbers_found": [
+          "+7 (495) 989–50–50"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Serbia": [
+      {
+        "text": "SRCE Novi Sad 2pm – 11pm: (+381) 21–6623–393 Toll-free: 0800–300–303",
+        "numbers_found": [
+          "(+381) 21–6623–393",
+          "0800–300–303"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "Dr Laza Lazarević Clinic for Suicide Prevention: 011 7777–000",
+        "numbers_found": [
+          "011 7777–000"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Singapore": [
+      {
+        "text": "The Samaritans of Singapore is the only 24-hour, toll-free, confidential suicide prevention hotline. It can be reached at 1767.",
+        "numbers_found": [
+          "1767"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "The national mindline 1771 is a 24-hour confidential mental health helpline. It can be reached at 1771.",
+        "numbers_found": [
+          "1771"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Slovakia": [
+      {
+        "text": "051 / 7731 000 – Linka dôvery (Prešov) (Monday: 7.00 – 15.30, Tuesday to Thursday: 7.00 – 15.00, Friday: 7.00 – 14.30).",
+        "numbers_found": [
+          "051",
+          "7731 000"
+        ],
+        "manual_fix_note": "The real numbers are 051 and 7731 000; the other automatically extracted values (15.30, 15.00, 14.30) were schedule times written with a period, not phone numbers.",
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "IPčko.sk providing online chat counseling service from 7am to midnight.",
+        "numbers_found": [],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Slovenia": [
+      {
+        "text": "Zaupni telefon Samarijan in Sopotnik is available 24-hours a day. Reached on 116 123.",
+        "numbers_found": [
+          "116 123"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "TOM – telefon za otroke in mladostnike is available 7 days a week from 13:00 – 20:00. Reached on 116 111.",
+        "numbers_found": [
+          "116 111"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "Klic v duševni stiski is available 7 days a week 19:00 – 7:00. Reached on (01) 520–99–00.",
+        "numbers_found": [
+          "(01) 520–99–00"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "South Africa": [
+      {
+        "text": "The Triangle Project can be reached at (021) 712 6699 daily from 13:00 to 21:00.",
+        "numbers_found": [
+          "(021) 712 6699"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "Suicide Crisis Line: Call 0800 567 567 or SMS 31393",
+        "numbers_found": [
+          "0800 567 567",
+          "31393"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Spain": [
+      {
+        "text": "The Ministry of Health promotes Line 024 for attention to suicidal behavior. Available 24/7 and free of charge.",
+        "numbers_found": [
+          "024"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "Teléfono de la Esperanza is open 24 hours a day, 7 days a week. They can be reached by calling 717 003 717.",
+        "numbers_found": [
+          "717 003 717"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Sri Lanka": [
+      {
+        "text": "Sri Lanka Sumithrayo – Bandarawela: 011 057 2222662",
+        "numbers_found": [
+          "011 057 2222662"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Saint Vincent and the Grenadines": [
+      {
+        "text": "The Samaritans, St. Vincent: (784) 456 1044",
+        "numbers_found": [
+          "(784) 456 1044"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Sudan": [
+      {
+        "text": "Befrienders Khartoum: (249) 11–555–253",
+        "numbers_found": [
+          "(249) 11–555–253"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Sweden": [
+      {
+        "text": "Självmordslinjen (Suicide prevention hotline) can be reached at 90101.",
+        "numbers_found": [
+          "90101"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "BRIS – Barnens rätt i samhället can be called or texted at 116 111.",
+        "numbers_found": [
+          "116 111"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Switzerland": [
+      {
+        "text": "Die dargebotene Hand: 143 (helpline for any kind of life crisis and mental health problems)",
+        "numbers_found": [
+          "143"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "Pro Juventute: 147 (helpline for minors under 18 years especially)",
+        "numbers_found": [
+          "147"
+        ],
+        "audience": [
+          "children_youth"
+        ]
+      }
+    ],
+    "Taiwan": [
+      {
+        "text": "119 is the national emergency number of the ROC (Taiwan) MOHW Suicide Prevention Line: 1925",
+        "numbers_found": [
+          "119",
+          "1925"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "Lifeline: 1995",
+        "numbers_found": [
+          "1995"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Thailand": [
+      {
+        "text": "Samaritans of Thailand: (02) 713–6793",
+        "numbers_found": [
+          "(02) 713–6793"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "Mental Health Hotline: 1323",
+        "numbers_found": [
+          "1323"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Tonga": [
+      {
+        "text": "Lifeline: 23000",
+        "numbers_found": [
+          "23000"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Trinidad and Tobago": [
+      {
+        "text": "Lifeline: 800–5588, 866–5433, 220–3636",
+        "numbers_found": [
+          "800–5588",
+          "866–5433",
+          "220–3636"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "ChildLine: 131 or 800-4321",
+        "numbers_found": [
+          "131",
+          "800-4321"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "Turkey": [],
+    "Ukraine": [
+      {
+        "text": "Lifeline: 7333",
+        "numbers_found": [
+          "7333"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "United Arab Emirates": [
+      {
+        "text": "National Committee for the Promotion of Mental Health: Call 920033360",
+        "numbers_found": [
+          "920033360"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "For Indian expats: Call 800 46342",
+        "numbers_found": [
+          "800 46342"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "United Kingdom": [
+      {
+        "text": "111, Option 2, is the National Health Services' First Response Service for mental health crises.",
+        "numbers_found": [
+          "111"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "National Suicide Prevention Helpline UK can be reached on 0800 689 5652.",
+        "numbers_found": [
+          "0800 689 5652"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "SOS Silence of Suicide: You can reach them on 0808 115 1505.",
+        "numbers_found": [
+          "0808 115 1505"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "Samaritans Helpline can be reached at 116 123.",
+        "numbers_found": [
+          "116 123"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "Campaign Against Living Miserably (CALM) can be reached at 0800 58 58 58 (available every day from 5PM to midnight).",
+        "numbers_found": [
+          "0800 58 58 58"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "Shout: Text SHOUT to 85258",
+        "numbers_found": [
+          "85258"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "PAPYRUS HOPELINE247 Call 0800 068 4141",
+        "numbers_found": [
+          "0800 068 4141"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "Lifeline (Northern Ireland): Call 0808 808 8000",
+        "numbers_found": [
+          "0808 808 8000"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ],
+    "United States": [
+      {
+        "text": "211 is a phone number in the United States for people in crisis who need emergency referrals.",
+        "numbers_found": [
+          "211"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "The 988 Suicide & Crisis Lifeline can be reached at 988.",
+        "numbers_found": [
+          "988"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "Nacional de Prevención del Suicidio: 1–888–628–9454",
+        "numbers_found": [
+          "1–888–628–9454"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "The Veterans Crisis Line can be reached at 988 or 1–800–273–8255, followed by Pressing 1",
+        "numbers_found": [
+          "988",
+          "1–800–273–8255"
+        ],
+        "audience": [
+          "veterans"
+        ]
+      },
+      {
+        "text": "The Crisis Text Line can be reached by texting HOME to 741–741.",
+        "numbers_found": [
+          "741–741"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "The Trevor Project TrevorLifeline can be reached at 1–866–488–7386.",
+        "numbers_found": [
+          "1–866–488–7386"
+        ],
+        "audience": [
+          "general"
+        ]
+      },
+      {
+        "text": "Trans Lifeline can be reached at 1–877–565–8860.",
+        "numbers_found": [
+          "1–877–565–8860"
+        ],
+        "audience": [
+          "lgbt"
+        ]
+      }
+    ],
+    "Uruguay": [
+      {
+        "text": "Línea de prevención del suicidio is available 24-hour. Telephone 08000767 or *0767",
+        "numbers_found": [
+          "08000767",
+          "0767"
+        ],
+        "audience": [
+          "general"
+        ]
+      }
+    ]
+  }
+}
