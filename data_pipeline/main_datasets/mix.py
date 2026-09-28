@@ -9,15 +9,18 @@ Steps, in order:
   5. Split train/val/test by conv_id (the same conversation or question never
      appears in two sets), deterministically from a hash of the conv_id
   6. Oversample AnnoMI and the crisis safety dataset (train only)
-  7. Shuffle and write data/final/{train,val,test}.jsonl + mix_stats.json
+  7. Insert the system prompt (prompts/system_prompt.txt) at the start of
+     every conversation. It lives in one file, used both here and by the
+     application, so training and deployment always see the same text.
+  8. Shuffle and write data/final/{train,val,test}.jsonl + mix_stats.json
 
-The HOPE sample is copied as-is to data/final/hope_eval.jsonl (evaluation only).
+The HOPE sample goes to data/final/hope_eval.jsonl (evaluation only), with
+the same system prompt.
 """
 import hashlib
 import json
 import random
 import re
-import shutil
 from collections import defaultdict
 
 from common import REPO_ROOT
@@ -26,6 +29,7 @@ CLEAN_DIR = REPO_ROOT / "data" / "clean"
 REVIEW_DIR = REPO_ROOT / "data" / "review"
 FINAL_DIR = REPO_ROOT / "data" / "final"
 CRISIS_DATASET = REPO_ROOT / "data" / "crisis_safety_dataset.jsonl"
+SYSTEM_PROMPT_PATH = REPO_ROOT / "prompts" / "system_prompt.txt"
 
 SEED = 42
 
@@ -87,6 +91,21 @@ def load_crisis_decisions():
     return {r["id"] for r in read_jsonl(path) if r.get("decision") == "keep"}
 
 
+def load_system_prompt():
+    with open(SYSTEM_PROMPT_PATH, encoding="utf-8") as f:
+        text = f.read().strip()
+    if not text:
+        raise ValueError(f"{SYSTEM_PROMPT_PATH} is empty")
+    return text
+
+
+def with_system_prompt(record, system_prompt):
+    """Returns a copy with the system prompt as the first message
+    (replacing any existing one, so it is never duplicated)."""
+    messages = [m for m in record["messages"] if m["role"] != "system"]
+    return {**record, "messages": [{"role": "system", "content": system_prompt}] + messages}
+
+
 # --- Split --------------------------------------------------------------------
 
 def split_of(conv_id):
@@ -109,6 +128,7 @@ def trainable_words(record):
 
 def main():
     rng = random.Random(SEED)
+    system_prompt = load_system_prompt()
     keep_reviewed = load_crisis_decisions()
     stats = defaultdict(dict)
     pools = {}
@@ -156,8 +176,9 @@ def main():
 
     for name, recs in splits.items():
         rng.shuffle(recs)
-        write_jsonl(recs, FINAL_DIR / f"{name}.jsonl")
-    shutil.copy(CLEAN_DIR / "hope_eval.jsonl", FINAL_DIR / "hope_eval.jsonl")
+        write_jsonl([with_system_prompt(r, system_prompt) for r in recs], FINAL_DIR / f"{name}.jsonl")
+    hope = read_jsonl(CLEAN_DIR / "hope_eval.jsonl")
+    write_jsonl([with_system_prompt(r, system_prompt) for r in hope], FINAL_DIR / "hope_eval.jsonl")
 
     totals = {name: len(recs) for name, recs in splits.items()}
     with open(FINAL_DIR / "mix_stats.json", "w", encoding="utf-8") as f:
