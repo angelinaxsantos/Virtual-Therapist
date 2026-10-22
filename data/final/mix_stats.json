@@ -1,70 +1,63 @@
 {
   "totals": {
-    "train": 11456,
-    "val": 525,
-    "test": 606
+    "train": 11573,
+    "val": 530,
+    "test": 612
   },
   "per_source": {
     "psych8k": {
-      "available": 8186,
-      "excluded: crisis not reviewed/kept": 31,
-      "selected": 5000,
-      "train examples": 4499,
-      "val examples": 226,
-      "test examples": 275,
-      "train trainable words": 287538,
-      "train share of learning signal": "27.9%"
+      "available": 8185,
+      "selected": 5030,
+      "test examples": 278,
+      "train examples": 4524,
+      "val examples": 228,
+      "train trainable words": 267430,
+      "train share of learning signal": "30.3%"
     },
     "esconv": {
       "available": 1304,
-      "excluded: crisis not reviewed/kept": 23,
-      "selected": 1281,
-      "train examples": 1162,
-      "val examples": 57,
-      "test examples": 62,
-      "train trainable words": 241413,
-      "train share of learning signal": "23.4%"
+      "selected": 1304,
+      "train examples": 1183,
+      "val examples": 58,
+      "test examples": 63,
+      "train trainable words": 208480,
+      "train share of learning signal": "23.6%"
     },
     "amod": {
-      "available": 1405,
-      "excluded: crisis not reviewed/kept": 43,
-      "selected": 1362,
-      "train examples": 1258,
-      "test examples": 60,
-      "val examples": 44,
-      "train trainable words": 210740,
-      "train share of learning signal": "20.5%"
+      "available": 1400,
+      "selected": 1400,
+      "train examples": 1292,
+      "test examples": 62,
+      "val examples": 46,
+      "train trainable words": 177731,
+      "train share of learning signal": "20.1%"
     },
     "annomi": {
       "available": 150,
-      "excluded: crisis not reviewed/kept": 6,
-      "selected": 144,
-      "train examples": 390,
+      "selected": 150,
+      "train examples": 408,
       "test examples": 5,
       "val examples": 9,
-      "train trainable words": 175755,
-      "train share of learning signal": "17.1%"
+      "train trainable words": 132936,
+      "train share of learning signal": "15.1%"
     },
     "empathetic": {
       "available": 24846,
-      "excluded: crisis not reviewed/kept": 19,
-      "excluded: self-disclosure": 3663,
-      "selected": 4000,
-      "val examples": 178,
-      "train examples": 3625,
+      "selected": 4019,
+      "train examples": 3644,
       "test examples": 197,
-      "train trainable words": 80770,
-      "train share of learning signal": "7.8%"
+      "val examples": 178,
+      "train trainable words": 62854,
+      "train share of learning signal": "7.1%"
     },
     "crisis_safety": {
       "available": 192,
-      "excluded: crisis not reviewed/kept": 0,
       "selected": 192,
       "train examples": 522,
       "val examples": 11,
       "test examples": 7,
       "train trainable words": 33432,
-      "train share of learning signal": "3.2%"
+      "train share of learning signal": "3.8%"
     }
   }
 }

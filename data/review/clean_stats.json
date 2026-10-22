@@ -1,53 +1,87 @@
 {
   "annomi": {
     "input": 150,
-    "crisis_flagged": 6,
-    "assistant turns excluded from training (train=False)": 0,
-    "output": 150
+    "assistant turns excluded from training (train=False)": 544,
+    "output": 150,
+    "sentences: backchannel_removed": 1034,
+    "sentences: cut_fragment_removed": 45,
+    "sentences: cut_sentence_joined": 219,
+    "sentences: cut_turn_kept": 91,
+    "sentences: filler_removed": 1512,
+    "sentences: manual_edit": 363,
+    "sentences: manual_mask": 544,
+    "sentences: nonverbal_removed": 260,
+    "sentences: restart_removed": 586,
+    "sentences: stutter_removed": 1817,
+    "sentences: therapist_name_removed": 2,
+    "sentences: turn_empty_after_nonverbal": 13
   },
   "esconv": {
     "input": 1304,
-    "crisis_flagged": 23,
-    "assistant turns excluded from training (train=False)": 1647,
+    "assistant turns excluded from training (train=False)": 2739,
     "output": 1304,
     "sentences: contact_removed": 19,
     "sentences: crisis_placeholder": 4,
-    "sentences: truncated_at_empty_assistant": 4
+    "sentences: emoticon_only_turn_kept": 1,
+    "sentences: emoticon_removed": 591,
+    "sentences: manual_edit": 2879,
+    "sentences: manual_mask": 2748,
+    "sentences: task_meta_removed": 135,
+    "sentences: therapist_name_removed": 12,
+    "sentences: tilde_removed": 1,
+    "sentences: truncated_at_empty_assistant": 34
   },
   "amod": {
-    "input": 1416,
-    "dropped: too_short_answer": 8,
-    "dropped: empty_assistant_turn": 2,
+    "input": 1414,
+    "dropped: too_short_answer": 7,
+    "dropped: empty_assistant_turn": 6,
     "dropped: duplicate": 1,
-    "crisis_flagged": 43,
-    "assistant turns excluded from training (train=False)": 0,
-    "output": 1405,
-    "sentences: contact_removed": 113,
-    "sentences: crisis_placeholder": 13,
-    "sentences: promo_removed": 81,
-    "sentences: truncated_at_empty_assistant": 2
+    "assistant turns excluded from training (train=False)": 240,
+    "output": 1400,
+    "sentences: broken_url_removed": 1,
+    "sentences: contact_removed": 131,
+    "sentences: crisis_placeholder": 15,
+    "sentences: emoticon_removed": 33,
+    "sentences: manual_edit": 2213,
+    "sentences: manual_mask": 240,
+    "sentences: promo_removed": 83,
+    "sentences: signature_removed": 5,
+    "sentences: tilde_removed": 2,
+    "sentences: truncated_at_empty_assistant": 6
   },
   "psych8k": {
     "input": 8187,
-    "dropped: too_short_answer": 1,
-    "crisis_flagged": 31,
-    "assistant turns excluded from training (train=False)": 0,
-    "output": 8186
+    "dropped: too_short_answer": 2,
+    "assistant turns excluded from training (train=False)": 322,
+    "output": 8185,
+    "sentences: manual_edit": 621,
+    "sentences: manual_mask": 322,
+    "sentences: narration_removed": 1,
+    "sentences: role_prefix_removed": 701,
+    "sentences: therapist_name_removed": 4
   },
   "empathetic": {
     "input": 24847,
     "dropped: not_english": 1,
-    "crisis_flagged": 19,
-    "assistant turns excluded from training (train=False)": 0,
-    "conversations with self-disclosure": 3665,
+    "assistant turns excluded from training (train=False)": 1414,
     "output": 24846,
     "sentences: contact_removed": 3,
-    "sentences: crisis_placeholder": 3
+    "sentences: crisis_placeholder": 3,
+    "sentences: emoticon_only_turn_kept": 5,
+    "sentences: emoticon_removed": 1857,
+    "sentences: manual_edit": 647,
+    "sentences: manual_mask": 1414
   },
   "hope_eval": {
     "input": 11,
-    "crisis_flagged": 0,
     "assistant turns excluded from training (train=False)": 0,
-    "output": 11
+    "output": 11,
+    "sentences: filler_removed": 18,
+    "sentences: stutter_removed": 49,
+    "sentences: turn_empty_after_nonverbal": 1
+  },
+  "manual_edits": {
+    "rows": 11984,
+    "not applied": 0
   }
 }
