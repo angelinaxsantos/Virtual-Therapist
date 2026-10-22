@@ -19,3 +19,6 @@ data/final/*
 # Keep run statistics (counts only, no dataset text) as a record for the thesis
 !data/review/clean_stats.json
 !data/final/mix_stats.json
+
+# Ids of the reviewed Psych8k/EmpatheticDialogues sample (ids only, no dataset text)
+!data/review/sample_ids.txt

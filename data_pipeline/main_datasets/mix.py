@@ -2,17 +2,18 @@
 
 Steps, in order:
   1. Load the cleaned datasets and the crisis safety dataset
-  2. Exclude conversations flagged for crisis language unless they were
-     reviewed with "decision": "keep" in data/review/crisis_flagged.jsonl
-  3. EmpatheticDialogues: keep only conversations without self-disclosure
-  4. Downsample Psych8k and EmpatheticDialogues (see MIX)
-  5. Split train/val/test by conv_id (the same conversation or question never
+  2. Downsample Psych8k and EmpatheticDialogues (see MIX): only these two are
+     not used whole. Their sample is fixed in data/review/sample_ids.txt (the
+     ids of the examples that were reviewed line by line), so the sample never
+     changes when something upstream changes. Without that file, a random
+     sample of "sample" examples is drawn (SEED) and a warning is printed
+  3. Split train/val/test by conv_id (the same conversation or question never
      appears in two sets), deterministically from a hash of the conv_id
-  6. Oversample AnnoMI and the crisis safety dataset (train only)
-  7. Insert the system prompt (prompts/system_prompt.txt) at the start of
+  4. Oversample AnnoMI and the crisis safety dataset (train only)
+  5. Insert the system prompt (prompts/system_prompt.txt) at the start of
      every conversation. It lives in one file, used both here and by the
      application, so training and deployment always see the same text.
-  8. Shuffle and write data/final/{train,val,test}.jsonl + mix_stats.json
+  6. Shuffle and write data/final/{train,val,test}.jsonl + mix_stats.json
 
 The HOPE sample goes to data/final/hope_eval.jsonl (evaluation only), with
 the same system prompt.
@@ -30,6 +31,7 @@ REVIEW_DIR = REPO_ROOT / "data" / "review"
 FINAL_DIR = REPO_ROOT / "data" / "final"
 CRISIS_DATASET = REPO_ROOT / "data" / "crisis_safety_dataset.jsonl"
 SYSTEM_PROMPT_PATH = REPO_ROOT / "prompts" / "system_prompt.txt"
+SAMPLE_IDS_PATH = REVIEW_DIR / "sample_ids.txt"
 
 SEED = 42
 
@@ -83,12 +85,12 @@ def load_crisis_dataset():
     return records
 
 
-def load_crisis_decisions():
-    """ids reviewed with decision "keep"; anything else stays excluded."""
-    path = REVIEW_DIR / "crisis_flagged.jsonl"
-    if not path.exists():
-        return set()
-    return {r["id"] for r in read_jsonl(path) if r.get("decision") == "keep"}
+def load_sample_ids():
+    """ids of the Psych8k and EmpatheticDialogues sample (reviewed line by line); None if absent."""
+    if not SAMPLE_IDS_PATH.exists():
+        return None
+    with open(SAMPLE_IDS_PATH, encoding="utf-8") as f:
+        return {line.strip() for line in f if line.strip()}
 
 
 def load_system_prompt():
@@ -129,7 +131,9 @@ def trainable_words(record):
 def main():
     rng = random.Random(SEED)
     system_prompt = load_system_prompt()
-    keep_reviewed = load_crisis_decisions()
+    sample_ids = load_sample_ids()
+    if sample_ids is None:
+        print(f"WARNING: {SAMPLE_IDS_PATH.relative_to(REPO_ROOT)} not found: random sample, not the reviewed one")
     stats = defaultdict(dict)
     pools = {}
 
@@ -137,18 +141,10 @@ def main():
         records = load_crisis_dataset() if source == "crisis_safety" else read_jsonl(CLEAN_DIR / f"{source}.jsonl")
         stats[source]["available"] = len(records)
 
-        before = len(records)
-        records = [r for r in records
-                   if not r["meta"].get("crisis_flag") or r["id"] in keep_reviewed]
-        stats[source]["excluded: crisis not reviewed/kept"] = before - len(records)
-
-        if source == "empathetic":
-            before = len(records)
-            records = [r for r in records if not r["meta"].get("self_disclosure")]
-            stats[source]["excluded: self-disclosure"] = before - len(records)
-
         n = MIX[source]["sample"]
-        if n is not None and len(records) > n:
+        if n is not None and sample_ids is not None:
+            records = [r for r in records if r["id"] in sample_ids]
+        elif n is not None and len(records) > n:
             records = rng.sample(sorted(records, key=lambda r: r["id"]), n)
         stats[source]["selected"] = len(records)
         pools[source] = records
